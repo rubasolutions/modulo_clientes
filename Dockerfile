@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
+COPY index.html /usr/share/nginx/html/modulo_clientes/index.html
 EXPOSE 80
